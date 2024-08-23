@@ -15,7 +15,7 @@ class RegisterPage extends StatelessWidget {
         actions: <Widget>[
           IconButton(icon: Icon(Icons.check), onPressed: model.logic.onSubmit,)
         ],
-      ),
+      ), 
       body: Container(
         margin: EdgeInsets.only(left: 20,right: 20),
         child: SingleChildScrollView(
